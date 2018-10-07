@@ -1,0 +1,6 @@
+Volk 40 male 80
+Bobr 31 female 60 2017
+Zubr 20 male 83 2011
+Dosko 31 female 49
+Puasson 31 male 78 2015
+Sosiska 20 male 67 2017

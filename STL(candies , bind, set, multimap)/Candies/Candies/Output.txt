@@ -1,0 +1,94 @@
+Имеющийся ассортимент конфет: 
+name: Aeroflotnie
+sugar: 30
+weight: 10
+cocao: 25
+
+name: Barbaris
+sugar: 70
+weight: 5
+flavour: barbaris
+
+name: Dushes
+sugar: 73
+weight: 6
+flavour: pear
+
+name: Ballet
+sugar: 50
+weight: 10
+cocao: 30
+
+name: Truffels
+sugar: 40
+weight: 7
+cocao: 70
+
+name: Belochka
+sugar: 33
+weight: 12
+cocao: 25
+filler: nuts
+quantity: 40%
+
+Сформированный подарок массой 1000 и 69% шоколадных конфет.
+В этом подарке: 
+Aeroflotnie: 6
+Barbaris: 31
+Dushes: 25
+Ballet: 6
+Truffels: 9
+Belochka: 40
+Вес подарка с учетом погрешности: 968
+
+После сортировки по весу
+name: Barbaris
+sugar: 70
+weight: 5
+flavour: barbaris
+
+name: Dushes
+sugar: 73
+weight: 6
+flavour: pear
+
+name: Truffels
+sugar: 40
+weight: 7
+cocao: 70
+
+name: Aeroflotnie
+sugar: 30
+weight: 10
+cocao: 25
+
+name: Ballet
+sugar: 50
+weight: 10
+cocao: 30
+
+name: Belochka
+sugar: 33
+weight: 12
+cocao: 25
+filler: nuts
+quantity: 40%
+
+Поиск в диапазоне сахара
+name: Truffels
+sugar: 40
+weight: 7
+cocao: 70
+
+name: Aeroflotnie
+sugar: 30
+weight: 10
+cocao: 25
+
+name: Belochka
+sugar: 33
+weight: 12
+cocao: 25
+filler: nuts
+quantity: 40%
+

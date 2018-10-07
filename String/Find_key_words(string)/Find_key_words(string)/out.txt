@@ -1,0 +1,9 @@
+main: 2
+int: 2
+#include: 4
+while: 5
+return: 4
+string: 14
+break: 3
+std: 22
+if: 9

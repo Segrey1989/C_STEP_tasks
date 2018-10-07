@@ -1,0 +1,6 @@
+choc Aeroflotnie 30 10 25
+car  Barbaris 70 5 barbaris
+car Dushes 73 6 pear
+choc Ballet 50 10 30
+choc Truffels 40 7 70
+filler Belochka 33 12 25 nuts 40

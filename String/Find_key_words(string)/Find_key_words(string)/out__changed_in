@@ -1,0 +1,85 @@
+#include <iostream>
+#include <string>
+#include <fstream>
+
+if if if    
+
+
+
+size_t find_max_in_arr(const size_t *, size_t);
+
+int main() {
+::fstream in("/Users/Siarhei/Desktop/STEP/C++/Find_key_words(string)/Find_key_words(string)/in.txt", ::ios::in);
+::fstream out("/Users/Siarhei/Desktop/STEP/C++/Find_key_words(string)/Find_key_words(string)/out.txt", ::ios::out);
+::fstream out_changed("/Users/Siarhei/Desktop/STEP/C++/Find_key_words(string)/Find_key_words(string)/out__changed_in", ::ios::out);
+
+if(in.is_open()){
+const size_t size = 9;
+::string str;
+::string key_arr[size] = {"main", "int","#include", "while", "return", "string", "break", "", "if"};
+size_t count_word_arr[size] = {0};
+
+for(size_t i = 0; i < size; i++){
+size_t counter = 0;
+
+while(getline(in, str)){
+size_t pos = 0;
+
+while(pos != ::string::npos){
+pos = str.find(key_arr[i], pos);
+if(pos == -1) break;
+counter++;
+pos = pos + key_arr[i].length();
+}
+}
+out << key_arr[i] << ": " << counter << "\n";
+count_word_arr[i] = counter;
+in.close();
+in.open("/Users/Siarhei/Desktop/STEP/C++/Find_key_words(string)/Find_key_words(string)/in.txt", ::ios::in);
+
+if(!in.is_open()){
+::cout << "File opening error in second opening\n";
+return 0;
+}
+// in.seekg(0, ::ios::beg); //не работает
+}
+//        getline(in, str);
+//        ::cout << str << "\n";
+size_t max = find_max_in_arr(count_word_arr, size);
+::cout << key_arr[max]<< "\n";
+
+while(in){
+getline(in, str);
+size_t pos = 0;
+//::cout << str << "\n";
+
+while(pos != ::string::npos){
+pos = str.find(key_arr[max], pos);
+if(pos == -1) break;
+str.replace(pos, key_arr[max].length(), "*");
+// pos = pos +//key_arr[max].length();
+}
+out_changed << str << "\n";
+}
+
+}
+else
+::cout << "File opening error in first opening \n";
+return 0;
+}
+
+
+
+size_t find_max_in_arr(const size_t * arr, size_t size){
+size_t temp = arr[0];
+size_t index = 0;
+
+size_t i = 1;
+for(; i < size; i++)
+if(arr[i] > temp){
+temp = arr[i];
+index = i;
+}
+return index;
+}
+

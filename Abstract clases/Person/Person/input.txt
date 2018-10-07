@@ -1,0 +1,8 @@
+Glyba 22 male 6.8 3 teacher
+Penkov 26 male 7.9 2018 ingener
+Lapteva 21 female 9.2 4 journalist
+Oznob 23 male 9.9 2016 managment
+Laba 25 female 6.5 2018 chemistry 
+Smak 21 male 8 4 chemistry
+Spok 22 female 7.7 5 managment
+Tratata 18 male 6.1 2018 managment

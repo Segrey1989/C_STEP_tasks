@@ -1,0 +1,5 @@
+Minsk B611 00.45 1
+Kiev  012  22.40 0
+Warsaw 98B 15.30 1
+Moskow 900 08.30 0
+Gomel A334 17.12 1

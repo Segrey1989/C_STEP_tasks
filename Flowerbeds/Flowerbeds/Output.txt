@@ -1,0 +1,50 @@
+Flowerbeds shape sorted:
+1 circle tulip rose cornflower 
+4 circle tulip rose cornflower lily 
+2 square poppy daisy rose lily 
+3 star poppy daisy rose lily tulip 
+6 star poppy 
+5 triangle aster rose lily tulip 
+
+
+List of flower names: 
+aster	cornflower	daisy	lily	poppy	rose	tulip	
+
+Multimap: 
+1 circle tulip rose cornflower 
+4 circle tulip rose cornflower lily 
+2 square poppy daisy rose lily 
+3 star poppy daisy rose lily tulip 
+6 star poppy 
+5 triangle aster rose lily tulip 
+
+
+ Flowerbeds with poppy were deleted: 
+1 circle tulip rose cornflower 
+4 circle tulip rose cornflower lily 
+5 triangle aster rose lily tulip 
+
+Shapes of the flowerbeds: 
+circle
+square
+star
+triangle
+
+Number of each flower in the all flowerbeds: 
+aster: 1
+cornflower: 2
+daisy: 2
+lily: 4
+poppy: 3
+rose: 5
+tulip: 4
+
+rose was changed for pion
+1 circle tulip pion cornflower 
+4 circle tulip pion cornflower lily 
+2 square poppy daisy pion lily 
+3 star poppy daisy pion lily tulip 
+6 star poppy 
+5 triangle aster pion lily tulip 
+
+Id of the flowerbed with more flowers: 3

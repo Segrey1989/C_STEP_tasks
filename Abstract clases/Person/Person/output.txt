@@ -1,0 +1,80 @@
+Student: 
+name: Glyba
+age: 22
+gender: male
+average: 6.8
+course: 3
+speciality: teacher
+scolarship: 84
+
+
+Aspirant: 
+name: Penkov
+age: 26
+gender: male
+average: 7.9
+year: 2018
+speciality: ingener
+scolarship: 150
+
+
+Student: 
+name: Lapteva
+age: 21
+gender: female
+average: 9.2
+course: 4
+speciality: journalist
+scolarship: 112
+
+
+Aspirant: 
+name: Oznob
+age: 23
+gender: male
+average: 9.9
+year: 2016
+speciality: managment
+scolarship: 150
+
+
+Aspirant: 
+name: Laba
+age: 25
+gender: female
+average: 6.5
+year: 2018
+speciality: chemistry
+scolarship: 150
+
+
+Student: 
+name: Smak
+age: 21
+gender: male
+average: 8
+course: 4
+speciality: chemistry
+scolarship: 98
+
+
+Student: 
+name: Spok
+age: 22
+gender: female
+average: 7.7
+course: 5
+speciality: managment
+scolarship: 84
+
+
+Aspirant: 
+name: Tratata
+age: 18
+gender: male
+average: 6.1
+year: 2018
+speciality: managment
+scolarship: 150
+
+
